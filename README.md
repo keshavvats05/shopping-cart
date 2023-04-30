@@ -46,14 +46,18 @@ However user can perform a self logout by clicking on the logout button
 #### Data storage
 The data is stored inside the JSON file (data.JSON) inside the assets folder.
 
-## Home
+### Home
 After a successful authenticaion, the user enters in the home page.
 At first, the data is fetched from the data.JSON file present inside the assets folder.
 Inside the home page, the user can perform the following actions
 1.Add items to cart.
+
 2.update the item's quantity.
+
 3.Remove the item from the cart.
+
 4.Checkout the items in the cart
+
 5.And can finally logout of the application
 
 #### CheckOut
@@ -63,11 +67,11 @@ It is backdrop that hides rest of the page.
 The checkOut component display the Price details (number of items and its price, discount, delivery charges and total amount).
 The user can click the close button inside the checkouk backdrop to close the component.
 
-## Logout
+### Logout
 Finally, user can logout and the item added to the cart along with its price details is stored inside the local storage of the browser.
 After logout, the user authentication data(token, tokenExpirationTime etc.) is removed from the local storage and the user needs to authenticate again for enterting inside the home page.
 
-## Link to this website
+### Link to this website
 This website is hosted using netlify and the link is mentioned below:
 
 
