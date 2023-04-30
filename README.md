@@ -22,7 +22,12 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
+#About this project
 
+This is a single-page web application using AngularJS  that allows
+users to view and manage a list of products. The application allows users to edit, delete,
+and add products to their cart. The application  also includes a persistent login and
+registration page, and persists the product list and user data in the browser's storage.
 
 ## Further help
 
