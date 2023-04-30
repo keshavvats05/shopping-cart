@@ -1,0 +1,24 @@
+<!-- backdrop blocks access to reset of the pages and ensures that the focus is on the alert box -->
+
+<div class="backdrop" (click)="onClose()" *ngIf="message">
+    <div class="alert-box">
+        <div class="container cont_1">
+            <nav class="navbar navbar-light bg-light">
+                <a class="navbar-brand" href="#" style="color: #878787;">PRICE DETAILS</a>
+              </nav>
+              <!-- <p>Price ({{products.length}} items) <span>₹{{cartTotal}}</span></p> 
+              <p>Discount <span>-₹0</span></p>
+              <p>Delivery Charges <span>₹60</span></p>
+              <p>Total Amount <span>{{cartTotal+60}}</span>/</p> -->
+
+                <div class="checkout">Price({{products.length}} items)</div><span>₹{{cartTotal}}</span>
+                <div class="checkout">Discount</div><span>₹0</span>
+                <div class="checkout">Delivery Charges</div><span>₹60</span>
+                <div class="checkout">Total Amount</div> <span>₹{{cartTotal+60}}</span>
+           
+            <div class="alert-box-action">
+                <button class="btn btn-primary" (click)="onClose()">Close</button>
+            </div>
+          </div>
+    </div>
+</div> 
