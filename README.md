@@ -73,6 +73,7 @@ After logout, the user authentication data(token, tokenExpirationTime etc.) is r
 
 ### Link to this website
 This website is hosted using netlify and the link is mentioned below:
+https://yourshoppingstore.netlify.app
 
 
 
