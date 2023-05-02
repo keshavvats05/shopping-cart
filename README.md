@@ -1,5 +1,10 @@
 # Shopping-cart 
 
+
+## Link to this website
+This website is hosted using netlify and the link is mentioned below:
+https://yourshoppingstore.netlify.app
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
 
 ## Development server
@@ -25,7 +30,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## About the project
 
 This is a single-page web application using AngularJS  that allows
-users to view and manage a list of products. The application allows users to edit, delete,
+users to view and manage products in cart. The application allows users to edit, delete,
 and add products to their cart. The application  also includes a persistent login and
 registration page, and persists the product list and user data in the browser's storage.
 
@@ -71,9 +76,6 @@ The user can click the close button inside the checkouk backdrop to close the co
 Finally, user can logout and the item added to the cart along with its price details is stored inside the local storage of the browser.
 After logout, the user authentication data(token, tokenExpirationTime etc.) is removed from the local storage and the user needs to authenticate again for enterting inside the home page.
 
-### Link to this website
-This website is hosted using netlify and the link is mentioned below:
-https://yourshoppingstore.netlify.app
 
 
 
